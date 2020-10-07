@@ -20,7 +20,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
     <preference name="PAGE_LINK_DOMAIN" />
 
-    <dependency id="cordova-plugin-firebase-analytics" version="~4.5.0"/>
+    <dependency id="cordova-plugin-firebase-analytics" url="https://github.com/superles/cordova-plugin-firebase-analytics.git" version="~4.5.0"/>
 
     <platform name="android">
         <preference name="ANDROID_FIREBASE_DYNAMICLINKS_VERSION" default="19.1.+"/>
